@@ -1,10 +1,15 @@
 var https = require('https');
 
+// var options = {
+//   host: 'www.example.org',
+//   path: '/'
+// };
+//
+//
 var options = {
-  host: 'www.example.org',
-  path: '/'
+  host: 'stream-large-file.herokuapp.com',
+  path: '/give-me-stuff-now'
 };
-//console.log('I did it!');
 //
 
 // called by https when the request is made.
@@ -36,8 +41,7 @@ console.log("I've made the request!");
 // callback happens after the response is returned
 //
 //
-//
-
+// callback data from exaple.org
 /* [-- CHUNK OF LENGTH 1270 --]
 <!doctype html>
 <html>
